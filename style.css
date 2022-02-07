@@ -1,6 +1,10 @@
 body {
     background-color: #222;
     font-family: sans-serif;
+    color: #eee;
+}
+
+h4, p {
     color: #ddd;
 }
 
