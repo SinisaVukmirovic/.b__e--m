@@ -1,0 +1,31 @@
+body {
+    background-color: #222;
+    font-family: sans-serif;
+    color: #ddd;
+}
+
+header {
+    background-color: crimson;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+}
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+        ul li {
+            margin: 0 1rem;
+        }
+            ul li a {
+                text-decoration: none;
+                color: #eee;
+            }
+
+main {
+    margin: 5rem 20%;
+}
