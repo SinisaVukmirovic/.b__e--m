@@ -22,7 +22,7 @@ p {
     margin: 3rem;
     padding: 2rem;
     max-width: 20rem;
-    box-shadow: 0 10px 30px -10px rgb(0, 0, 0);
+    box-shadow: 0 10px 30px -10px crimson;
 }
 
 .card--light {
