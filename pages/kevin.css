@@ -1,0 +1,17 @@
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.container {
+    max-width: 60%;
+    margin: 5rem auto;
+    display: flex;
+}
+
+.card {
+    margin: 3rem;
+    padding: 2rem;
+    max-width: 20rem;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 1);
+}
