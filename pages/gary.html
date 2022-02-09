@@ -10,17 +10,28 @@
 <body>
         
     <div class="card">
-        <span class="card__img"></span>
+        <img class="card__img" src="../img/bem.png" alt="BEM graph picture">
+
         <div class="card__content">
             <ul class="card__list">
                 <li class="card__item card__item--active">Adobe XD</li>
                 <li class="card__item">Figma</li>
                 <li class="card__item">Sketch</li>
             </ul>
+
             <p class="card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero atque iste nobis quidem dolore error animi voluptas quia corrupti consectetur.</p>
             <a class="card__link" href="#">Visit the link</a>
         </div>
     </div>
+
+    <main>
+        <section>
+            <p>Block in the entire card.</p>
+            <p>Elements of the card block are card image and card content.</p>
+            <p>Card list, card description and card link are also an element of the card, even though it is nested inside of an card content element</p>
+            <p>Card item is also an element which can have a Modifier --active which gives id different style than the rest card item elements.</p>
+        </section>
+    </main>
     
 </body>
 </html>
