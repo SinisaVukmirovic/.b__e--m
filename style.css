@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #222;
     font-family: sans-serif;
@@ -22,9 +28,15 @@ p {
 
 header {
     background-color: crimson;
+    height: 50vh;   
+    display: grid;
+    place-items: center;
 }
 
 nav {
+    align-self: flex-start;
+    width: 100%;
+    background-color: firebrick;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,9 +47,16 @@ nav {
         display: flex;
     }
         ul li {
-            margin: 0 1rem;
+            margin: 1rem;
+            padding: .5rem 1rem;
         }
+
+.animated-title {
+    font-size: 20vh;
+}
+
 
 main {
     margin: 5rem 20%;
 }
+
