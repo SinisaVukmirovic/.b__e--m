@@ -50,21 +50,23 @@ nav {
 
 .animated-title {
     font-size: 15vh;
+    color: yellow;
 }
     .animated-title .letter {
         display: inline-block;
+        text-shadow: 0 0 10px #111;
     }
         .animated-title .letter:nth-child(1) {
             animation: intro 4s ease-in-out 2s backwards,
-                       jump .5s ease-out 8s backwards;
+                       jump .2s ease-out 6.6s backwards;
         }
         .animated-title .letter:nth-child(2) {
-            animation: intro 4s ease-in-out 4s backwards,
-                       jump .5s ease-out 8.25s backwards;
+            animation: intro 4s ease-in-out 3.5s backwards,
+                       jump .2s ease-out 6.8s backwards;
         }
         .animated-title .letter:nth-child(3) {
-            animation: intro 4s ease-in-out 6s backwards,
-                       jump .5s ease-out 8.5s backwards;
+            animation: intro 4s ease-in-out 5s backwards,
+                       jump .2s ease-out 7s backwards;
         }
     @keyframes intro {
         0% {
@@ -73,12 +75,12 @@ nav {
         }
         10% {
             opacity: 1;
-            transform: scale(1.2);
+            transform: scale(1.25);
         }
-        15% {
-            transform: scale(1.2);
+        13% {
+            transform: scale(1.25);
         }
-        20% {
+        16% {
             transform: scale(1);
         }
     }
