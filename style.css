@@ -27,8 +27,7 @@ h1, h2 {
 }
 h1 {
     font-size: 2rem;
-    letter-spacing: 5px;
-    color: #ffcc00;
+    letter-spacing: 3px;
 }
 
 p {
@@ -117,5 +116,15 @@ h2 {
 }
 
 hr {
-    margin: 1rem 10rem;
+    margin: 3rem 20rem;
 }
+
+footer {
+    padding: 1rem;
+    background-color: #17a1e4;
+    text-align: center;
+}
+    footer a {
+        text-transform: none;
+        text-decoration: none;
+    }
