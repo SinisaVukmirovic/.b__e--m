@@ -67,7 +67,8 @@ nav {
 }
     .animated-title .letter {
         display: inline-block;
-        text-shadow: 0 0 10px #333;
+        text-shadow: 2px 2px 6px #333,
+                    -2px -2px 6px #333;
     }
         .animated-title .letter:nth-child(1) {
             animation: intro 4s ease-in-out 2s backwards,
@@ -88,12 +89,12 @@ nav {
         }
         10% {
             opacity: 1;
-            transform: scale(1.25);
+            transform: scale(1.20);
         }
-        13% {
-            transform: scale(1.25);
+        12% {
+            transform: scale(1.20);
         }
-        16% {
+        15% {
             transform: scale(1);
         }
     }
