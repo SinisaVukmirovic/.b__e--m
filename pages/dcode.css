@@ -1,0 +1,38 @@
+.container {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    width: 15rem;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+}
+
+.user__photo {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: 4px solid cyan;
+}
+
+.user__name {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.button {
+    width: 100%;
+    color: #222;
+    font-size: 1rem;
+    background-color: #ddd;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    padding: .5rem .75rem;
+    cursor: pointer;
+}
